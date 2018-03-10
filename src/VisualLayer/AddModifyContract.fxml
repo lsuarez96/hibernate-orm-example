@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="471.0" prefWidth="407.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualLayer.AddModifyContractController">
+    <stylesheets>
+        <URL value="@MyStylesheet.css" />
+    </stylesheets>
+    <children>
+        <Text fx:id="txt" fill="#c9c8c8" layoutX="127.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contrato">
+            <font>
+                <Font name="Britannic Bold" size="40.0" />
+            </font>
+        </Text>
+        <Label fx:id="idturlb" layoutX="14.0" layoutY="85.0" text="ID. Turista:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="carlb" layoutX="16.0" layoutY="163.0" text=" Auto:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="startlb" layoutX="21.0" layoutY="201.0" text="inicio:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="endlb" layoutX="21.0" layoutY="243.0" text="fin:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="drivlb" layoutX="17.0" layoutY="285.0" text="Chofer:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="deliverlb" layoutX="16.0" layoutY="326.0" text="entrega:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="fplb" layoutX="14.0" layoutY="370.0" text="Forma de pago:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <DatePicker fx:id="deliveryDP" layoutX="101.0" layoutY="328.0" promptText="select delivery date of contract" />
+        <DatePicker fx:id="startDP" layoutX="101.0" layoutY="204.0" promptText="select the start date of the contract" />
+        <DatePicker fx:id="endDP" layoutX="101.0" layoutY="246.0" promptText="select end date of contract" />
+        <ComboBox fx:id="carCB" layoutX="96.0" layoutY="162.0" prefHeight="31.0" prefWidth="271.0" promptText="select a car" />
+        <ComboBox fx:id="turistCB" layoutX="147.0" layoutY="84.0" prefHeight="31.0" prefWidth="218.0" promptText="select a turist" />
+        <ComboBox fx:id="payCB" layoutX="149.0" layoutY="367.0" prefHeight="31.0" prefWidth="196.0" promptText="select pay form" />
+        <ComboBox fx:id="driverCB" layoutX="96.0" layoutY="276.0" prefHeight="31.0" prefWidth="196.0" promptText="select a driver(optional)" />
+        <Button fx:id="accept" layoutX="149.0" layoutY="412.0" mnemonicParsing="false" onAction="#onAcceptPressed" text="Aceptar" />
+        <Label fx:id="filtlb" layoutX="13.0" layoutY="126.0" text="Filtrar autos:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="completTF" layoutX="147.0" layoutY="128.0" onKeyTyped="#onKeyPressedForFilter" prefHeight="26.0" prefWidth="218.0" promptText="Type the characteristics of the car">
+            <contextMenu>
+                <ContextMenu fx:id="completCM">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                    </items>
+                </ContextMenu>
+            </contextMenu>
+        </TextField>
+    </children>
+</AnchorPane>

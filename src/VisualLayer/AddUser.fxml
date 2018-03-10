@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="356.0" prefWidth="332.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualLayer.AddUserController">
+    <stylesheets>
+        <URL value="@MyStylesheet.css" />
+    </stylesheets>
+    <children>
+        <Label fx:id="usrlb" layoutX="12.0" layoutY="99.0" text="Usuario:" />
+        <Label fx:id="passlb" layoutX="9.0" layoutY="235.0" text="Pasword:" />
+        <Label fx:id="lnamelb" layoutX="9.0" layoutY="186.0" text="Apellidos:" />
+        <Label fx:id="namlb" layoutX="12.0" layoutY="143.0" text="Nombre:" />
+        <TextField fx:id="userTF" layoutX="100.0" layoutY="90.0" prefHeight="29.0" prefWidth="205.0" promptText="user name" />
+        <TextField fx:id="nameTF" layoutX="100.0" layoutY="136.0" prefHeight="29.0" prefWidth="205.0" promptText="name(only letters)" />
+        <TextField fx:id="lnameTF" layoutX="100.0" layoutY="179.0" prefHeight="29.0" prefWidth="205.0" promptText="lastname(only letters)" />
+        <PasswordField fx:id="passF" layoutX="99.0" layoutY="228.0" prefHeight="29.0" prefWidth="205.0" promptText="user password" />
+        <Button fx:id="acc" layoutX="132.0" layoutY="297.0" mnemonicParsing="false" onAction="#onAcceptPressed" text="Aceptar" />
+        <Text fx:id="usrtx" fill="#d3cfcf" layoutX="99.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario">
+            <font>
+                <Font name="Britannic Bold" size="41.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

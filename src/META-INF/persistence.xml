@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="RentaCar_ORMPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>ModelLayer.Trazas</class>
+    <class>ModelLayer.Situaciones</class>
+    <class>ModelLayer.Choferes</class>
+    <class>ModelLayer.Modelos</class>
+    <class>ModelLayer.Usuarios</class>
+    <class>ModelLayer.Turista</class>
+    <class>ModelLayer.Rol</class>
+    <class>ModelLayer.Contratos</class>
+    <class>ModelLayer.Tarifa</class>
+    <class>ModelLayer.FormaPago</class>
+    <class>ModelLayer.RolUsuario</class>
+    <class>ModelLayer.Autos</class>
+    <class>ModelLayer.Pais</class>
+    <class>ModelLayer.Categorias</class>
+    <class>ModelLayer.Marcas</class>
+    <class>ModelLayer.Views.ListadoChoferes</class>
+    <class>ModelLayer.Views.ListadoIngresos2</class>
+    <class>ModelLayer.Views.ContratoPorPais</class>
+    <class>ModelLayer.Views.ListadoIncumplidores</class>
+    <class>ModelLayer.Views.ContratoPorModeloYMarca</class>
+    <class>ModelLayer.Views.ListadoContratos</class>
+    <class>ModelLayer.Views.ListadoAutos</class>
+    <class>ModelLayer.Views.ListadoSituaciones</class>
+    <class>ModelLayer.Views.TuristasPorPais</class>
+    <class>ModelLayer.Views.ListadoIngresos</class>
+    <class>ModelLayer.Views.ContratoPais</class>
+    <class>ModelLayer.Views.TuristasPais</class>
+    <class>ModelLayer.Views.ContratoPorModeloMarca</class>
+    <class>ModelLayer.Views.ListadoChofer</class>
+    <properties>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+      <property name="hibernate.ejb.cfgfile" value="META-INF/hibernate.cfg.xml"/>
+    </properties>
+  </persistence-unit>
+</persistence>

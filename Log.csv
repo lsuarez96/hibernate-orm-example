@@ -1,0 +1,141 @@
+Tabla/ Accion/ Id fila modificada/ Direccion ip/ Fecha/ Usuario/ Nombre del Usuario
+Turista/ CREATE/ 26/ 127.0.0.1/ 2017-06-27/ luisito/ luisito suarez
+Contratos/ UPDATE/ 9/ 127.0.0.1/ 2017-06-27/ luisito/ luisito suarez
+Contratos/ UPDATE/ 9/ 127.0.0.1/ 2017-06-27/ luisito/ luisito suarez
+Contratos/ CREATE/ 10/ 127.0.0.1/ 2017-06-27/ luisito/ luisito suarez
+Contratos/ DELETE/ 8/ 127.0.0.1/ 2017-06-27/ luisito/ luisito suarez
+Turista/ CREATE/ 27/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Turista/ UPDATE/ 26/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Choferes/ CREATE/ 9/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ DELETE/ 4/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Autos/ DELETE/ 2/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Autos/ CREATE/ 45/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 11/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 12/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 13/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 14/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 15/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ UPDATE/ 10/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ UPDATE/ 10/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ UPDATE/ 11/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ UPDATE/ 11/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ UPDATE/ 12/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ UPDATE/ 12/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Turista/ DELETE/ 23/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Turista/ UPDATE/ 22/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 16/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 17/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Contratos/ CREATE/ 18/ 127.0.0.1/ 2017-06-28/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 27/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 15/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 15/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Marcas/ DELETE/ 26/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Choferes/ CREATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Choferes/ CREATE/ 15/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Autos/ CREATE/ 66/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Autos/ UPDATE/ 66/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ CREATE/ 31/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 9/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 9/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 15/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+RolUsuario/ DELETE/ 10/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Usuarios/ DELETE/ 27/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ DELETE/ 7/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+RolUsuario/ DELETE/ 9/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+RolUsuario/ DELETE/ 13/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Usuarios/ DELETE/ 16/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Usuarios/ CREATE/ 28/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+RolUsuario/ CREATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Modelos/ UPDATE/ 6/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Marcas/ DELETE/ 36/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Marcas/ CREATE/ 37/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Marcas/ CREATE/ 38/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Modelos/ CREATE/ 21/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Tarifa/ CREATE/ 13/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Tarifa/ DELETE/ 13/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Tarifa/ CREATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ DELETE/ 13/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Turista/ DELETE/ 17/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Choferes/ UPDATE/ 3/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Autos/ UPDATE/ 65/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 31/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 31/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 15/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 15/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 16/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 16/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 17/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 17/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 18/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Contratos/ UPDATE/ 18/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 14/ 127.0.0.1/ 2017-06-30/ luisito/ luisito suarez
+Modelos/ UPDATE/ 2/ 127.0.0.1/ 2017-07-02/ luisito/ luisito suarez
+Autos/ UPDATE/ 6/ 127.0.0.1/ 2017-07-02/ luisito/ luisito suarez
+Contratos/ UPDATE/ 18/ 127.0.0.1/ 2017-07-02/ luisito/ luisito suarez
+Contratos/ UPDATE/ 18/ 127.0.0.1/ 2017-07-02/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 15/ 127.0.0.1/ 2017-07-02/ luisito/ luisito suarez
+Contratos/ CREATE/ 33/ 127.0.0.1/ 2017-07-03/ luisito/ luisito suarez
+Contratos/ UPDATE/ 33/ 127.0.0.1/ 2017-07-03/ luisito/ luisito suarez
+Contratos/ UPDATE/ 33/ 127.0.0.1/ 2017-07-03/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 15/ 127.0.0.1/ 2017-07-03/ luisito/ luisito suarez
+Usuarios/ UPDATE/ 15/ 127.0.0.1/ 2017-07-03/ luisito/ luisito suarez
+Autos/ CREATE/ 67/ 127.0.0.1/ 2017-07-11/ luisito/ luisito suarez
+Contratos/ CREATE/ 36/ 127.0.0.1/ 2017-07-11/ luisito/ luisito suarez
+RolUsuario/ DELETE/ 14/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Usuarios/ DELETE/ 28/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Turista/ DELETE/ 22/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Contratos/ DELETE/ 10/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Contratos/ DELETE/ 12/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Turista/ DELETE/ 26/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Autos/ DELETE/ 65/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Autos/ DELETE/ 3/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Autos/ CREATE/ 68/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Contratos/ CREATE/ 37/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Usuarios/ CREATE/ 29/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+RolUsuario/ CREATE/ 15/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+RolUsuario/ CREATE/ 16/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+RolUsuario/ CREATE/ 17/ 127.0.0.1/ 2017-07-12/ luisito/ luisito suarez
+Autos/ CREATE/ 86/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 87/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ UPDATE/ 87/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 88/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 89/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ DELETE/ 89/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Choferes/ CREATE/ 20/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Choferes/ UPDATE/ 20/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Choferes/ CREATE/ 21/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 90/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Contratos/ CREATE/ 38/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Contratos/ UPDATE/ 38/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 91/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Contratos/ CREATE/ 39/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 92/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Contratos/ CREATE/ 40/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Turista/ DELETE/ 73/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Turista/ UPDATE/ 74/ 127.0.0.1/ 2017-07-12/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 93/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 94/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ UPDATE/ 94/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 95/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 96/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ DELETE/ 96/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Choferes/ CREATE/ 22/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Choferes/ UPDATE/ 22/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Choferes/ CREATE/ 23/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 97/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Contratos/ CREATE/ 41/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Contratos/ UPDATE/ 41/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 98/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Contratos/ CREATE/ 42/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Autos/ CREATE/ 99/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Contratos/ CREATE/ 43/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Turista/ DELETE/ 79/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Turista/ UPDATE/ 80/ 10.8.191.98/ 2017-07-13/ test-user/ usuario de prueba test user
+Contratos/ DELETE/ 15/ 10.8.191.98/ 2017-07-13/ luisito/ luisito suarez
+Contratos/ DELETE/ 33/ 10.8.191.98/ 2017-07-13/ luisito/ luisito suarez
+Turista/ DELETE/ 27/ 10.8.191.98/ 2017-07-13/ luisito/ luisito suarez
+RolUsuario/ DELETE/ 1/ 10.8.191.98/ 2017-07-13/ admin/ DefaultAdm default
+RolUsuario/ DELETE/ 17/ 10.8.191.98/ 2017-07-13/ admin/ DefaultAdm default

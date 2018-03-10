@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="487.0" prefWidth="353.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualLayer.AddorModifyTuristController">
+    <stylesheets>
+        <URL value="@MyStylesheet.css" />
+    </stylesheets>
+    <children>
+        <Text fx:id="turlb" fill="#c9c8c8" layoutX="105.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turista">
+            <font>
+                <Font name="Britannic Bold" size="46.0" />
+            </font>
+        </Text>
+        <Label fx:id="passlb" layoutX="13.0" layoutY="97.0" text="Pasaporte:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="namelb" layoutX="13.0" layoutY="131.0" text="Nombre:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="lnamelb" layoutX="13.0" layoutY="173.0" text="Apellidos:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="phonelb" layoutX="11.0" layoutY="217.0" text="Teléfono:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="agelb" layoutX="14.0" layoutY="254.0" text="Edad:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="sexlb" layoutX="13.0" layoutY="296.0" text="Sexo:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label fx:id="countrylb" layoutX="15.0" layoutY="342.0" text="País:">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Button fx:id="acc" layoutX="137.0" layoutY="442.0" mnemonicParsing="false" onAction="#onAcceptPressed" text="Aceptar" />
+        <TextField fx:id="idTF" layoutX="129.0" layoutY="91.0" prefHeight="29.0" prefWidth="201.0" promptText="passport  (alfanumeric)" />
+        <TextField fx:id="nameTF" layoutX="129.0" layoutY="127.0" onKeyTyped="#keyPressedForLetters" prefHeight="29.0" prefWidth="201.0" promptText="name(only letters)" />
+        <TextField fx:id="lastNameTF" layoutX="129.0" layoutY="167.0" onKeyTyped="#keyPressedForLetters" prefHeight="29.0" prefWidth="201.0" promptText="last name (only letters)" />
+        <TextField fx:id="phoneTF" layoutX="126.0" layoutY="213.0" onKeyTyped="#keyPressedForDigits" promptText="phone (only numbers)" />
+        <TextField fx:id="ageTF" layoutX="126.0" layoutY="250.0" onKeyTyped="#keyPressedForDigits" prefHeight="29.0" prefWidth="48.0" />
+        <ComboBox fx:id="sexCB" layoutX="117.0" layoutY="292.0" prefHeight="31.0" prefWidth="193.0" promptText="sex" />
+        <ComboBox fx:id="countryCB" layoutX="117.0" layoutY="338.0" prefHeight="31.0" prefWidth="215.0" promptText="country" />
+    </children>
+</AnchorPane>

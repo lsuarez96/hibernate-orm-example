@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="groovy-compile-impl" default="groovyc" basedir="..">
+    
+   <property file="nbproject/project.properties"/>
+
+   <target name="groovyc" description="groovyc">
+        <taskdef name="groovyc" 
+                 classpath="dist/lib/groovy-all-1.1-rc-2-SNAPSHOT.jar" 
+                 classname="org.codehaus.groovy.ant.Groovyc"/>
+        <groovyc srcdir="${src.dir}" destdir="groovy">
+            <classpath path="dist/lib/groovy-all-1.1-rc-2-SNAPSHOT.jar"/>
+        </groovyc>
+   </target>
+    
+</project>

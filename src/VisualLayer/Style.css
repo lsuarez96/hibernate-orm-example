@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-jun-2016, 15:51:28
+    Author     : Pablo
+tremendo mojon ke hiciste so maricon
+*/
+
+.background{
+    -fx-background-color: linear-gradient(to bottom right,cyan,derive(darkblue,40%));
+}
+
+.my-button{
+    -fx-background-color: linear-gradient(aqua,mediumblue);
+    -fx-effect: dropshadow(three-pass-box, black, 11, 0.0, 3, 3);  
+    -fx-text-fill: linear-gradient(deepskyblue,aqua);
+}    
+
+.my-button:pressed{
+    -fx-background-color: linear-gradient(to bottom right,blue,darkblue);
+    -fx-text-fill: limegreen;
+}
+
+.singlelabel{
+    -fx-text-fill: red; 
+    -fx-effect: dropshadow(three-pass-box, black, 11, 0.0, 3, 3);   
+}
+
+.tableview{
+   -fx-text-fill: white;
+   -fx-effect:innershadow(three-pass-box,#666666,11,0.0,-2,-2);
+}
+
+.column-header{
+    -fx-background-color:linear-gradient(transparent,grey);
+    -fx-background-radius: 3;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,-2,-2);  
+    -fx-font-color: red;
+}
+
+.treeview{
+    -fx-background-color: red;
+}
+
+.checkbox{
+    -fx-text-fill: red;
+    -fx-effect:dropshadow(three-pass-box,black,11,0.0,3,3);
+}
+
+.checkbox .box{
+    -fx-background-color: red;
+}
+
+.checkbox:pressed .box .mark{
+    -fx-background-color: blue;
+}
+
+.checkbox:selected .box .mark{
+    -fx-background-color: darkblue;
+    -fx-effect: dropshadow(three-pass-box,black,11,0.0,3,3);
+}
+
+.date-picker {
+    -fx-background-color: red;
+    -fx-background-fills: red;
+    -fx-fill: red;
+  
+}
+
+.text-area{
+    -fx-background-color: aqua;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.text-area:invalid{
+    -fx-background-color: red;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+    -fx-text-fill: maroon;
+    -fx-font-weight: bolder;
+}
+
+.text-area > .scroll-bar:horizontal{
+    -fx-background-color: greenyellow;
+}
+
+.text-area > .scroll-bar:vertical{
+    -fx-background-color: greenyellow;
+}
+
+.textfield{
+    -fx-background-color: aqua;
+    -fx-effect: innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.textfield:invalid{
+    -fx-background-color: red;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+    -fx-text-fill: maroon;
+    -fx-font-weight: bolder;
+}
+
+.passwordfield{
+    -fx-background-color: aqua;
+    -fx-effect: innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.passwordfield:invalid{
+    -fx-background-color: red;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.combo-box{
+    -fx-background-color: aqua;
+    -fx-effect: innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.combo-box > .arrow-button{
+    -fx-background-color: aquamarine;
+       -fx-effect: innershadow(three-pass-box,black,5,0.0,0,0);
+}
+
+.combobox:invalid{
+    -fx-background-color: red;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.combo-box:invalid > .arrow-button {
+    -fx-background-color: crimson;
+}
+
+.combo-box:pressed > .arrow-button {
+    -fx-background-color: linear-gradient(to bottom right,blue,darkblue);
+}
+
+.scroll-bar:horizontal{
+    -fx-background-color: orangered;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.scroll-bar:vertical{
+    -fx-background-color: orangered;
+    -fx-effect:innershadow(three-pass-box,#666666,11,0.0,0,3);
+}
+
+.scroll-pane .content {
+    -fx-background-color: red;
+}
+
+
+.scroll-bar > .thumb {
+    -fx-background-color: linear-gradient(orange,darkorange); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

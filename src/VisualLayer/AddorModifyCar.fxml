@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="408.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualLayer.AddorModifyCarController">
+    <stylesheets>
+        <URL value="@MyStylesheet.css" />
+    </stylesheets>
+    <children>
+        <Text fx:id="carlb" fill="#c9c8c8" layoutX="146.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Auto" textAlignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="53.0" />
+            </font>
+        </Text>
+        <Label fx:id="platelb" layoutX="17.0" layoutY="106.0" text="Chapa:">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="modlb" layoutX="14.0" layoutY="146.0" text="Modelo/Marca:">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="sitlb" layoutX="17.0" layoutY="190.0" text="Situación:">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="collb" layoutX="17.0" layoutY="237.0" text="Color:">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label fx:id="kmlb" layoutX="17.0" layoutY="282.0" text="Kilometros:">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+        <Button fx:id="acc" layoutX="172.0" layoutY="354.0" mnemonicParsing="false" onAction="#onAcceptButtonPressed" text="Aceptar" />
+        <TextField fx:id="plateTF" layoutX="106.0" layoutY="106.0" promptText="plate of the car" />
+        <TextField fx:id="colourTF" layoutX="96.0" layoutY="237.0" onKeyTyped="#keyPressedForLetters" promptText="colour of the car" />
+        <TextField fx:id="kmTF" layoutX="127.0" layoutY="281.0" onKeyTyped="#keyPressedForDigits" prefHeight="29.0" prefWidth="116.0" promptText="km(only number)" />
+        <ComboBox fx:id="modelCB" layoutX="166.0" layoutY="144.0" prefHeight="31.0" prefWidth="217.0" promptText="brand and model" />
+        <ComboBox fx:id="situationCB" layoutX="127.0" layoutY="188.0" prefHeight="31.0" prefWidth="185.0" promptText="current situation" />
+    </children>
+</AnchorPane>

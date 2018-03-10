@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="549.0" prefWidth="1271.0" stylesheets="@MyStylesheet.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualLayer.ContractsViewController">
+    <children>
+        <TableView fx:id="table" layoutY="26.0" prefHeight="440.0" prefWidth="928.0" styleClass="tableview">
+            <columns>
+                <TableColumn fx:id="idTurCol" prefWidth="120.0" text="No. Pasaporte" />
+                <TableColumn fx:id="plateCarCol" prefWidth="113.0" text="Chapa del auto" />
+                <TableColumn fx:id="startDateCol" prefWidth="121.0" text="Fecha de inicio" />
+                <TableColumn fx:id="endDateCol" prefWidth="104.0" text="Fecha fin" />
+                <TableColumn fx:id="idDriverCol" prefWidth="130.0" text="No. ID del Chofer" />
+                <TableColumn fx:id="payFormCol" prefWidth="118.0" text="Forma de pago" />
+                <TableColumn fx:id="deliveryDateCol" prefWidth="126.0" text="Fecha de entrega" />
+                <TableColumn fx:id="importCol" prefWidth="95.0" text="Importe total" />
+            </columns>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+        </TableView>
+        <Button fx:id="modify" alignment="CENTER" contentDisplay="CENTER" layoutX="435.0" layoutY="497.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onModifyPressed" prefHeight="35.0" prefWidth="92.0" text="Modificar" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+        <Button fx:id="del" alignment="CENTER" contentDisplay="CENTER" layoutX="637.0" layoutY="497.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onElimPressed" prefHeight="31.0" prefWidth="92.0" text="Eliminar" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+        <Button fx:id="add" alignment="CENTER" contentDisplay="CENTER" layoutX="221.0" layoutY="497.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#onAddPressed" prefHeight="31.0" prefWidth="92.0" stylesheets="@MyStylesheet.css" text="Agregar" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+      <Text fx:id="detalle" fill="#dad9d9" layoutX="1037.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalles:">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+      <Accordion fx:id="acord" layoutX="941.0" layoutY="47.0" prefHeight="416.0" prefWidth="321.0">
+        <panes>
+          <TitledPane fx:id="turpane" animated="false" prefHeight="358.0" prefWidth="408.0" text="Turista">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="24.0" layoutY="28.0" prefHeight="229.0" prefWidth="60.0" spacing="20.0">
+                           <children>
+                              <Text fx:id="passportlb" fill="#f5eded" strokeType="OUTSIDE" strokeWidth="0.0" text="Pasaporte:" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="namelb" fill="#f5eded" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="lnamelb" fill="#f5eded" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos:" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="agelb" fill="#f5eded" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad:" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="sexlb" fill="#f5eded" strokeType="OUTSIDE" strokeWidth="0.0" text="Sexo:" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="countrylb" fill="#f5eded" strokeType="OUTSIDE" strokeWidth="0.0" text="Pais:" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="118.0" layoutY="28.0" prefHeight="114.0" prefWidth="280.0" spacing="20.0">
+                           <children>
+                              <Text fx:id="passportdet" fill="#eee9e9" strokeType="OUTSIDE" strokeWidth="0.0" text="passportdata" wrappingWidth="163.7626953125">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="namedet" fill="#eee9e9" strokeType="OUTSIDE" strokeWidth="0.0" text="name turist">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="lnamedet" fill="#eee9e9" strokeType="OUTSIDE" strokeWidth="0.0" text="lname turist">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="agedet" fill="#eee9e9" strokeType="OUTSIDE" strokeWidth="0.0" text="age turist">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="sexdet" fill="#eee9e9" strokeType="OUTSIDE" strokeWidth="0.0" text="sex turist">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font></Text>
+                              <Text fx:id="countrydet" fill="#eee9e9" strokeType="OUTSIDE" strokeWidth="0.0" text="country turist" wrappingWidth="102.0517578125">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font></Text>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="carPane" animated="false" text="Auto">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="14.0" layoutY="18.0" spacing="20.0">
+                           <children>
+                              <Text fx:id="platlb" fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Chapa:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="modellb" fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Modelo:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="brandlb" fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Marca:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="colorlb" fill="#f5f3f3" strokeType="OUTSIDE" strokeWidth="0.0" text="Color:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="sitlb" fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Situacion:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="kmlb" fill="#f5f3f3" strokeType="OUTSIDE" strokeWidth="0.0" text="Kilometros:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="tarnlb" fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Tarifa Normal:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="tarelb" fill="#ebe4e4" strokeType="OUTSIDE" strokeWidth="0.0" text="Tarifa Especial">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="125.0" layoutY="18.0" spacing="20.0">
+                           <children>
+                              <Text fx:id="paltedet" fill="#e8e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chapa det" wrappingWidth="128.82813918590546">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="modeldet" fill="#e8e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="modelo detdsre" wrappingWidth="103.94287109375">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="branddet" fill="#e8e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="marca detalles">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="colordet" fill="#f8eeee" strokeType="OUTSIDE" strokeWidth="0.0" text="Color detalle">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="sitdet" fill="#e8e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="situaciones deta">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="kmdet" fill="#f8eeee" strokeType="OUTSIDE" strokeWidth="0.0" text="kilometros det">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="tarndet" fill="#e8e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="normal">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="taredet" fill="#e8e0e0" strokeType="OUTSIDE" strokeWidth="0.0" text="especial">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                     </children></AnchorPane>
+            </content>
+          </TitledPane>
+          <TitledPane fx:id="drivPane" animated="false" text="Chofer">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <VBox layoutX="30.0" layoutY="41.0" spacing="20.0">
+                           <children>
+                              <Text fx:id="idlb" fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="Identidad:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="namechoflb" fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="lnamechoflb" fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="addresslb" fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="Direccion:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="catlb" fill="#ebe8e8" strokeType="OUTSIDE" strokeWidth="0.0" text="Categoria:">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="117.0" layoutY="39.892578125" spacing="20.0">
+                           <children>
+                              <Text fx:id="iddet" fill="#e1d8d8" strokeType="OUTSIDE" strokeWidth="0.0" text="ID detaffg               " wrappingWidth="140.8173828125">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="nameChofdet" fill="#e1d8d8" strokeType="OUTSIDE" strokeWidth="0.0" text="nombre det">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="lnamechofdet" fill="#e1d8d8" strokeType="OUTSIDE" strokeWidth="0.0" text="apellidos deta">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="addressdet" fill="#e1d8d8" strokeType="OUTSIDE" strokeWidth="0.0" text="direcc detalll" wrappingWidth="161.61083984375">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text fx:id="catdet" fill="#e1d8d8" strokeType="OUTSIDE" strokeWidth="0.0" text="categoria detalle">
+                                 <font>
+                                    <Font name="System Bold Italic" size="14.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                     </children></AnchorPane>
+            </content>
+          </TitledPane>
+        </panes>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </Accordion>
+    </children>
+</AnchorPane>

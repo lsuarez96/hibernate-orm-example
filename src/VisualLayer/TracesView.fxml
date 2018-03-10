@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="429.0" prefWidth="650.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisualLayer.TracesViewController">
+    <stylesheets>
+        <URL value="@MyStylesheet.css" />
+    </stylesheets>
+   <children>
+      <TableView fx:id="table" layoutY="34.0" prefHeight="395.0" prefWidth="650.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="34.0">
+        <columns>
+          <TableColumn fx:id="opCol" prefWidth="75.0" text="Operación" />
+          <TableColumn fx:id="tableCol" prefWidth="75.0" text="Tabla" />
+            <TableColumn fx:id="regCol" prefWidth="107.0" text="Cod. Registro" />
+            <TableColumn fx:id="ipCol" prefWidth="75.0" text="Dir. IP" />
+            <TableColumn fx:id="dateCol" prefWidth="75.0" text="Fecha" />
+            <TableColumn fx:id="hourCol" prefWidth="75.0" text="Hora" />
+            <TableColumn fx:id="userCol" prefWidth="75.0" text="Usuario" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <MenuBar prefHeight="25.0" prefWidth="650.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu fx:id="fileMN" mnemonicParsing="false" text="Archivo">
+            <items>
+                  <MenuItem fx:id="txtmi" mnemonicParsing="false" onAction="#exportCSV" text="Exportar a *.txt" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
